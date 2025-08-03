@@ -1,0 +1,7 @@
+LIBRARY "WINDBG.DLL"
+
+EXPORTS
+    WinDbgExtensionDllInit
+    ExtensionApiVersion
+    shadow
+    unshadow
