@@ -22,3 +22,16 @@ the debugger will only be notice *after* `KeBugCheckEx` was called, but in shado
 was called, however, in shadow mode, after single-stepping the access violation, you will end in `KiPageFault`, this allow a better understanding of the whole exception emit chanin.
 
 - Fancy TUI.
+
+## Install from source
+
+### Requirement
+
+[fmt library](https://github.com/fmtlib/fmt)
+
+```
+git clone https://github.com/Lompandi/backtick-preview.git
+cd backtick-preview
+```
+
+Open .sln file inside the directory in Visual Studio and set compile version to **Release - x64** and compile it.
