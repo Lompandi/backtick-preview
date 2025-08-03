@@ -1,6 +1,6 @@
 ## Backtick - A simple kdnet plugin for easier kernel debuggging
 
-![Terminal demo](demo.gif)
+![Terminal demo](media/demo1.gif)
 
 This project is a KDNET extension that enables reverse stepping at the kernel level by combining record/replay mechanisms with emulation techniques.
 
